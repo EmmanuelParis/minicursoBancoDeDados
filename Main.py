@@ -1,4 +1,3 @@
-import os
 import auth
 from DAO import listar_usuarios
 from auth import cadastrarMenu, atualizarMenu, removerMenu

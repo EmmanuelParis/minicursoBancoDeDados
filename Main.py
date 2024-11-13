@@ -18,7 +18,7 @@ while True:
     elif opcao == 2:
         print(f'\033[36m{listar_usuarios()}\033[m')
     elif opcao == 3:
-        atualizarUser = input("\033[33mDigite o nome do usuário que deseja cadastrar: \033[m")
+        atualizarUser = input("\033[33mDigite o nome do usuário que deseja atualizar: \033[m")
         auth.atualizarMenu(atualizarUser)
     elif opcao == 4:
         deletarUser = input("\033[33mDigite o nome do usuário que deseja remover: \033[m")
